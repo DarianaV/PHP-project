@@ -1,0 +1,145 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.first-part-footer{
+    background: #E8E8E8;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.newsletter-form{
+    width:300px;
+    text-align: left;
+    padding: 10px;
+}
+.newsletter-form h2{
+    color: gray;
+    margin-bottom: 5px;
+}
+.email{
+    border: 2px solid #B0B0B0;
+    border-radius: 50px;
+    padding: 7px 30px 7px 10px;
+    margin-bottom: 10px;
+}
+.enter-email{
+    position: relative;
+    margin-top: 70px;
+}
+.fa-arrow-circle-right{
+    position: absolute;
+    color: lightgray;
+    font-size: 32px;
+    right:4px;
+    top: 1px;
+}
+.fa-arrow-circle-right:hover{
+    cursor: pointer;
+    color:#B73B56 ;
+}
+.first-part-footer article, div{
+    display: inline-block;
+}
+.fa-envelope-o{
+    font-size: 44px;
+    color:#B73B56;
+    border-right: 2px dashed #B0B0B0;
+    padding-right: 10px;
+    margin-top:17px ;
+}
+.resizing-div{
+    width: 77%;
+    text-align: center;
+}
+.second-part-footer{
+    background: url("background.jpeg") no-repeat center center;
+    background-size: cover;
+    --overflow: auto;
+    width: 100%;
+}
+.join-community{
+    margin: 40px auto 0;
+.}
+.join-community h2{
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.join-community img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.second-part-footer .list-more-details{
+    width: 100%;
+}
+.list-more-details{
+    margin-left: 35px;
+}
+.list-more-details ul{
+    display: inline-block;
+    list-style: none;
+    margin: 40px 40px 0;
+    vertical-align: top;
+    text-align: left;
+}
+.list-more-details ul li:first-of-type{
+    font-weight:bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.list-more-details ul li a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.list-more-details ul li:hover:not(:first-child){
+    text-decoration: underline;
+}
+.own-email{
+    text-transform: none !important;
+}
+.rights{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 10px;
+}
+
+
+@media only screen and (max-width: 890px) {
+    .list-more-details{
+        margin: auto;
+    }
+    .list-more-details ul{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .fa-envelope-o{
+        display: none;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .second-part-footer {
+        text-align: center;
+    }
+}
+    
+@media only screen and (max-width: 567px){
+    .enter-email {
+        margin-top: auto;
+    }
+}
+@media only screen and (max-width: 410px){
+    .resizing-div{
+        width: 100%;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+

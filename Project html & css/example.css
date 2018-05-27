@@ -1,0 +1,8 @@
+body{
+  background-color:#157998;
+}
+h1{
+  color:#fff;
+  text-align: center;
+}
+.bx-wrapper{max-width: 1024px !important; } /*ponemos el ancho de nuestras imágenes por defecto está al 100% */
